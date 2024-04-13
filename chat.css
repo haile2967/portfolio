@@ -1,0 +1,214 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(105, 100, 94);
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hamburger {
+   /* display: none;*/
+    color: #fff;
+    font-size: 25px;
+    display: block;
+    padding: 0 3rem;
+    
+}
+.header {
+    background-color: #14e5ec;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 768px) {
+    .header {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .section {
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .my-card{
+        flex-direction: column-reverse; 
+    }
+
+    footer {
+        padding: 5px 0;
+    }
+}
+    header {
+        background-color: #2da3a3;
+        color: rgb(234, 245, 239);
+        padding: 10px 0;
+        text-align: right;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000; 
+        text-align: right;
+    }
+    header:hover{
+        background-color: rgb(216, 110, 106);
+        
+    }
+
+.bgimage {
+    color: aliceblue;
+    background-color: rgb(51, 47, 42);
+    margin-top: 100px;
+    padding-top: 100px;
+    height:100vh;
+    background-size:cover;
+      position:relative;
+      width :auto
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+     max-width: auto;
+}
+.about-me:hover{
+    color: rgb(225, 219, 231);
+}
+
+.about-me {
+    background-color: #6d3f97;
+    text-align: left;
+    height:100vh;
+    background-size:cover;
+   position: relative;
+    padding-right: 50;
+    padding-left: 10px;
+    color: #010a0f;
+    position: relative;
+    
+}
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4.8rem 0;
+    padding: 0 5rem;
+    position:relative;
+    max-width: auto;
+}
+
+.my-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.my-row .my-col {
+    text-align: center;
+    width: 30%;
+}
+
+.my-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: linear-gradient(#141b19, #6b3e9e, #91aaa7);
+    padding: 1rem;
+}
+.my-card:hover{
+color: #efedf5;
+} 
+
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    background-color: #1cc516;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon svg {
+    font-size: 30px;
+    color: #fff;
+}
+
+#contact{
+    height:30vh;
+    background-size:cover;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #ccc;
+   
+}
+.footer.last:hover{
+    color: #ecd7b5;
+}
+
+footer{
+     text-align: right;
+        width: 100%;
+        z-index: 1000; 
+    text-align: center;
+    background-color: #57101071;
+    justify-content: space-between;
+    margin-right:10px ;
+    padding: 10px ;
+}
+.uil uil-google{
+    width: 1000px;
+    height: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #491414;
+}
+
